@@ -32,7 +32,7 @@ EOF
             const expected = v[i] + $n;
             const actual = r[i];
             if (expected !== actual) {
-                console.log(\`\${i}th r, v mismatch(expected: \${v[i]}, actual: \${r[i]})\`)
+                console.log(\`\${i}th r, v mismatch(expected: \${expected}, actual: \${actual})\`)
                 break
             }
         }
