@@ -3,8 +3,6 @@
 FILES="$*"
 
 for f in $FILES; do
-    lang=$(echo $f | sed 's/_.*$//')
-    type=$(echo $f | sed 's/^[^_]*_\([^_]*\)_.*$/\1/')
     log=$f.log
     echo "[$f]"
     sh $f | tee $f.log
