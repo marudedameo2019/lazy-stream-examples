@@ -1,0 +1,1 @@
+rustc -g lazy_stream.rs
